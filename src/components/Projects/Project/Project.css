@@ -1,0 +1,62 @@
+.name{
+    color: red;
+    padding: 20px;
+    font-size: 30px;  
+}
+.Project{
+    border: 1px solid beige;
+    width: 60%;
+    background-color:rgb(194, 191, 191);
+    height: 40%;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+.github{
+    font-size: 10px;
+}
+.description{
+    color: black;
+    padding:10px;
+}
+a:hover{
+    color: burlywood
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.Project:hover{
+    box-shadow: 10px 10px 7px 0px lightgray ;
+}
+
+@media(max-width:1050px)
+{
+    .Project
+    {
+        width: 70%;        
+    }
+    
+}
+
+@media(max-width:900px)
+{
+    .Project
+    {
+        width: 90%;        
+    }
+    
+}
+
+@media(max-width:570px)
+{
+    .Project
+    {
+        width: 100vw;
+    }
+    
+}

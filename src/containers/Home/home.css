@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .para{
+    background-color:rgb(194, 191, 191);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    text-align: left;
+  }
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 650px;
+    padding: 10px;
+    height: 800px; /* Should be removed. Only for demonstration */;
+   
+  }
+  .columnr{
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    height: 800px; /* Should be removed. Only for demonstration */;
+    box-shadow: 2px 1px 2px gray,-2px -1px 1px gray;;
+    border-radius: 20px;
+    height: 700px;
+  }
+  .columnr:hover{
+    box-shadow: 4px 4px 4px 2px;
+  }
+  
+  /* Clear floats after the columns */
+  .row{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .img{
+      height: 700px;
+      width: 550px
+  }
+
+
+  .bar{
+      height: 20px;
+      width: 100px;
+      border: 1px solid;
+      background-color: red
+  }
+
+  .quote{
+      padding-top:50px; 
+      font-weight: bold;
+      font-size: 30px;
+      color: goldenrod;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  /* fleax-box */
+  .row1{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .elements
+  {
+    flex: 1;
+    height: 700;
+    padding: 15px;
+    align-content: center;
+    text-align: center;
+    justify-self: center;
+  }
+  .elements:last-child
+  {
+   border: 1px solid black;
+   margin:20px 20px;
+   min-width: 500px;
+   border-radius: 10px;
+   box-shadow: 4px;
+  }
+

@@ -1,0 +1,20 @@
+.skill{
+    margin: 10px;
+    padding:5px;
+    border:2px solid;
+    width: fit-content ;
+    min-width: 60px;
+    align-content: center;
+}
+.skill1{
+    width: fit-content ;
+    min-width: 30px;
+    align-content: center;
+    transition: background-position 0.6s ease-in-out;
+    background-position: -0% 0 ;
+}
+
+.skill1:hover
+{    
+    background-position: -99.99% 0;
+}
