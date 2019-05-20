@@ -15,12 +15,12 @@ class Page2 extends Component{
                 github: "https://github.com/gandlusn/React-project",
                 website: "https://burger-order-9e6d9.firebaseapp.com/"
             },
-            {
-                name:"Django Website",
-                description:" Developed a Django Website which is like a reddit website, this web site designed in multiple views and models, and used SQL-Lite database to store user and their posts related data and hosted it in Heroku using",
-                github: "https://github.com/gandlusn/Django",
-                website:"https://redditclone-anin.herokuapp.com"
-            },
+          //  {
+          //      name:"Django Website",
+          //      description:" Developed a Django Website which is like a reddit website, this web site designed in multiple views and models, and used SQL-Lite database to store user and their posts related data and hosted it in Heroku using",
+          //      github: "https://github.com/gandlusn/Django",
+          //      website:"https://redditclone-anin.herokuapp.com"
+          //  },
             {
                 name: "Movie Rental API",
                 description:"Designed an API for movie rentals using Node and Express JS. Used Winston library to log Errors in files and Mongo DB. Mongoose library to interact with Mongo DB and Used JOI to design Model validations. Create authentication endpoints with role-based access to the URL endpoints using JWT tokens.",
